@@ -15,8 +15,8 @@ difficulty:2
 fancyGraphics:false
 ao:1
 renderClouds:fast
-resourcePacks:["shrift-0-standart.zip","mat_zen-35-1.2.2.zip"]
-incompatibleResourcePacks:["shrift-0-standart.zip"]
+resourcePacks:["mat_zen-35-1.2.2.zip","shrift-0-standart-1.12.zip"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -139,7 +139,7 @@ key_key.immersiveintelligence.motorbikeEngine:19
 key_key.immersiveintelligence.motorbikeTowing:44
 key_key.immersiveintelligence.armorHelmet:47
 key_key.immersiveintelligence.armorExosuit:34
-soundCategory_master:0.102649
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
