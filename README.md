@@ -13,7 +13,7 @@
   - К ним относится оптифайн, по [этой](https://optifine.net/copyright) причине, скачать можно [здесь](https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar)
   - Immersive Railroading, файл мода слишком большой для гитхаба, [ссылка](https://www.curseforge.com/minecraft/mc-mods/immersive-railroading/files/4970105) для скачивания.
   - Ресурспак к MAtmos, [ссылка](https://www.curseforge.com/minecraft/texture-packs/matmos-2020-zen/files/3407318)
-- Готово. Используемые мной настройки игры и модов так же включены.
+- Готово. Используемые мной настройки игры и модов также включены.
 
 ## Other Modpacks
 Вы можете найти эту и другие мои сборки [здесь](https://monsieurfeb.github.io/modpacks.html)
