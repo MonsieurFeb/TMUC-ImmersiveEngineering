@@ -1,0 +1,26 @@
+{
+	title: "Очистительный завод",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "biodiesel",
+			Amount: 1000
+		}
+	},
+	x: 26.0d,
+	y: 16.5d,
+	text: [
+		"Машина для заключительного этапа производства биодизеля - энергоёмкой жидкости для генератора"
+	],
+	dependencies: [
+		"f669cf88",
+		"9b418e06"
+	],
+	tasks: [{
+		uid: "2f45868d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	}]
+}

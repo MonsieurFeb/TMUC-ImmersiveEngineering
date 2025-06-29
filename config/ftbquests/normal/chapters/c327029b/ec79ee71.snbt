@@ -1,0 +1,52 @@
+{
+	title: "Оружие инженера",
+	x: 33.5d,
+	y: 16.5d,
+	text: [
+		"Ваши компаньоны по истреблению местной фауны"
+	],
+	tasks: [{
+		uid: "54c0abee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 21,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:revolver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "58a2e44a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:railgun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd836cbd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 10"
+		}]
+	},
+	{
+		uid: "48da4ce3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 11"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Редстоун",
+	x: 31.0d,
+	y: 8.5d,
+	text: [
+		"В моде так же имеются компоненты для работы с редстоуном, например провода и коннекторы."
+	],
+	dependencies: [
+		"f1ba8622"
+	],
+	tasks: [{
+		uid: "9d2b68ac",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 5"
+		}]
+	}]
+}

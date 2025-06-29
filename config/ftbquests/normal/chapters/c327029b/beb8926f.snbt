@@ -1,0 +1,19 @@
+{
+	title: "Экскаватор",
+	icon: "minecraft:iron_ore",
+	x: 31.0d,
+	y: 16.5d,
+	text: [
+		"Машина для автоматизированной добычи руд. Если достаточно места для ресурсов, энергии и есть понимание, где добывать - можно начинать"
+	],
+	dependencies: [
+		"a1bd19c0"
+	],
+	tasks: [{
+		uid: "77b11f33",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,113 @@
+{
+	title: "Арсенал инженера",
+	x: 23.5d,
+	y: 8.5d,
+	text: [
+		"Здесь представлены различные инструменты для удобства. Подробнее о них можно прочесть в руководстве инженера"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "120f782b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:toolbox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74152a85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:skyhook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "84a86ef2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2de1cdf1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:earmuffs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c065c4ff",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:faraday_suit_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ba7e4e9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:jerrycan"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9900ee96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2127079f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:chemthrower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a7906ccb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:powerpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

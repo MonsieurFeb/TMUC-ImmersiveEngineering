@@ -1,0 +1,25 @@
+{
+	title: "Маслобойня",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "plantoil",
+			Amount: 1000
+		}
+	},
+	x: 23.5d,
+	y: 16.5d,
+	text: [
+		"Производит масло из семян - один из компонентов биодизеля"
+	],
+	dependencies: [
+		"fd98107f"
+	],
+	tasks: [{
+		uid: "2dacbda6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	}]
+}

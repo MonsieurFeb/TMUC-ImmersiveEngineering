@@ -1,0 +1,18 @@
+{
+	title: "Сталь",
+	x: 23.5d,
+	y: 12.5d,
+	text: [
+		"Ваша первая сталь будет сделана именно в данном многоблоке. Не автоматизируется, но улучшается"
+	],
+	dependencies: [
+		"382899a5"
+	],
+	tasks: [{
+		uid: "a06eb218",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}]
+	}]
+}

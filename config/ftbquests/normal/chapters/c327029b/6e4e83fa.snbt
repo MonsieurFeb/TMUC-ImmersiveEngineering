@@ -1,0 +1,20 @@
+{
+	title: "Металлический пресс",
+	icon: "immersiveengineering:mold 1 1",
+	x: 31.0d,
+	y: 12.5d,
+	text: [
+		"Установка, заменяющая молоток и кусачки по части производства.",
+		"С ней производить пластины, провода, и т.д. - более выгодно"
+	],
+	dependencies: [
+		"fad16ba7"
+	],
+	tasks: [{
+		uid: "0c42d656",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}]
+}

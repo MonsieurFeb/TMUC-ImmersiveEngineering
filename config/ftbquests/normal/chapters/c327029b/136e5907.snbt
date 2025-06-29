@@ -1,0 +1,50 @@
+{
+	x: 21.0d,
+	y: 10.5d,
+	text: [
+		"Генерация руд мода представлена следующими ископаемыми. Можно посмотреть их частоту генерации с помощью JER"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "06d1ac6c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 2"
+		}]
+	},
+	{
+		uid: "08a25fce",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore"
+		}]
+	},
+	{
+		uid: "d707e87c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 1"
+		}]
+	},
+	{
+		uid: "425f6789",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 3"
+		}]
+	},
+	{
+		uid: "6e800c54",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 4"
+		}]
+	},
+	{
+		uid: "7b9c513c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 5"
+		}]
+	}]
+}

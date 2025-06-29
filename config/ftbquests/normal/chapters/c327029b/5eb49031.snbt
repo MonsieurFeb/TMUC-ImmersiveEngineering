@@ -1,0 +1,19 @@
+{
+	title: "Дробитель",
+	icon: "immersiveengineering:metal 1 18",
+	x: 31.0d,
+	y: 14.5d,
+	text: [
+		"Классическая машина любого индустриального мода. Только эта большая. Предметы можно загружать воронкой сверху"
+	],
+	dependencies: [
+		"fad16ba7"
+	],
+	tasks: [{
+		uid: "41d4f87e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	}]
+}

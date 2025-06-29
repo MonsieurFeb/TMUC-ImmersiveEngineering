@@ -1,0 +1,25 @@
+{
+	title: "Ферментер",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "ethanol",
+			Amount: 1000
+		}
+	},
+	x: 26.0d,
+	y: 14.5d,
+	text: [
+		"Отвечает за брожение и создаёт один из компонентов биодизеля"
+	],
+	dependencies: [
+		"fd98107f"
+	],
+	tasks: [{
+		uid: "f29121b1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	}]
+}

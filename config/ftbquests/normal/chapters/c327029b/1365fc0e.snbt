@@ -1,0 +1,36 @@
+{
+	title: "Хранилища энергии",
+	x: 31.0d,
+	y: 10.5d,
+	text: [
+		"Энергию можно не только производить, но и хранить, использовать как буфер.",
+		"Данные генераторы отличаются ёмкостью и скоростью выдачи энергии.",
+		"(Стороны входа и выхода настраиваются молотком)"
+	],
+	dependencies: [
+		"fad16ba7"
+	],
+	dependency_requirement: "one_started",
+	or_tasks: true,
+	tasks: [{
+		uid: "6d3a7feb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}]
+	},
+	{
+		uid: "fecf3946",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 1"
+		}]
+	},
+	{
+		uid: "f352f39e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 2"
+		}]
+	}]
+}

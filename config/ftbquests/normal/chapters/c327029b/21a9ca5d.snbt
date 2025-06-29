@@ -1,0 +1,22 @@
+{
+	title: "Бур",
+	x: 26.0d,
+	y: 8.5d,
+	text: [
+		"Кирка со сменными головками, работающая на биодизеле"
+	],
+	tasks: [{
+		uid: "789e1c40",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 5,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:drill"
+		}],
+		ignore_nbt: 1b
+	}]
+}
