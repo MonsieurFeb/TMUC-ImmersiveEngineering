@@ -1,18 +1,74 @@
 {
 	title: "Дизельный генератор",
-	x: 28.5d,
-	y: 16.5d,
+	icon: "immersiveengineering:metal_multiblock 1 10",
+	x: 44.0d,
+	y: 12.0d,
+	shape: "gear",
 	text: [
 		"Продвинутый вариант производства электроэнергии, пригодится для \"прожорливых\" машинок, наподобие экскаватора"
 	],
 	dependencies: [
 		"94fc478d"
 	],
+	size: 3.0d,
 	tasks: [{
 		uid: "2b8cd6b5",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:metal_decoration0 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "505b3b90",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 7"
+		}],
+		count: 8L
+	},
+	{
+		uid: "740d149a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 12L
+	},
+	{
+		uid: "a2fb14e2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 5L
+	},
+	{
+		uid: "fc4f1080",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
 		}]
+	}],
+	rewards: [{
+		uid: "93fda90d",
+		type: "item",
+		item: "immersiveengineering:metal_decoration0 1 7"
+	},
+	{
+		uid: "de32aa70",
+		type: "item",
+		item: "immersiveengineering:metal_decoration0 1 5"
+	},
+	{
+		uid: "40ca4481",
+		type: "item",
+		item: "immersiveengineering:metal_decoration1 1 1",
+		count: 6
+	},
+	{
+		uid: "3fdb5d98",
+		type: "xp_levels",
+		xp_levels: 1
 	}]
 }

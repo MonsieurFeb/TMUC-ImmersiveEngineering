@@ -1,16 +1,17 @@
 {
-	title: "Первая электроэнергия",
-	x: 28.5d,
+	title: "Сила воды",
+	x: 28.0d,
 	y: 10.5d,
 	text: [
 		"Для того, чтобы начать пользоваться большим количеством машин мода, потребуется энергия.",
 		"Она совместима с RF (или FE).",
-		"Можно сделать один представленных генераторов. На кинетический генератор крепится водяное колесо или мельница."
+		"Данное колесо крепится на кинетический генератор"
 	],
 	dependencies: [
-		"f1ba8622",
+		"56c6b877",
 		"787d135b"
 	],
+	optional: true,
 	or_tasks: true,
 	tasks: [{
 		uid: "929635df",
@@ -18,26 +19,11 @@
 		items: [{
 			item: "immersiveengineering:wooden_device1"
 		}]
-	},
-	{
-		uid: "2df09739",
+	}],
+	rewards: [{
+		uid: "2b56ca87",
 		type: "item",
-		items: [{
-			item: "immersiveengineering:metal_device1 1 2"
-		}]
-	},
-	{
-		uid: "9b37f094",
-		type: "item",
-		items: [{
-			item: "immersiveengineering:metal_device1 1 3"
-		}]
-	},
-	{
-		uid: "5bad2420",
-		type: "item",
-		items: [{
-			item: "immersiveengineering:wooden_device1 1 1"
-		}]
+		item: "immersiveengineering:connector 1 1",
+		count: 4
 	}]
 }

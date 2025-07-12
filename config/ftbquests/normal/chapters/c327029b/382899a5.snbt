@@ -1,11 +1,15 @@
 {
 	title: "Инструмент инженера",
-	x: 21.0d,
+	x: 20.0d,
 	y: 12.5d,
+	shape: "diamond",
 	text: [
 		"Ваш первый инструмент в моде.",
 		"ПКМ по многоблоку, чтобы его собрать.",
 		"Может делать пластины и дробить руды (но без удвоения)"
+	],
+	dependencies: [
+		"d1df7478"
 	],
 	tasks: [{
 		uid: "7f4355ab",
@@ -14,5 +18,11 @@
 			item: "immersiveengineering:tool"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a5db50e",
+		type: "item",
+		item: "minecraft:leather",
+		count: 3
 	}]
 }

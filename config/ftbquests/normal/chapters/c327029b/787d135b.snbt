@@ -1,9 +1,12 @@
 {
 	title: "Сталь",
-	x: 23.5d,
+	x: 22.0d,
 	y: 12.5d,
+	shape: "gear",
 	text: [
-		"Ваша первая сталь будет сделана именно в данном многоблоке. Не автоматизируется, но улучшается"
+		"Ваша первая сталь будет сделана именно в данном многоблоке.",
+		"(Но перед этим нужно будет добыть стержней Ифрита)",
+		"Не автоматизируется, но улучшается"
 	],
 	dependencies: [
 		"382899a5"
@@ -13,6 +16,13 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:stone_decoration 1 1"
-		}]
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "71e3b4a7",
+		type: "item",
+		item: "immersiveengineering:stone_decoration 1 1",
+		count: 3
 	}]
 }

@@ -1,16 +1,16 @@
 {
 	title: "Хранилища энергии",
-	x: 31.0d,
-	y: 10.5d,
+	x: 36.0d,
+	y: 6.5d,
 	text: [
 		"Энергию можно не только производить, но и хранить, использовать как буфер.",
 		"Данные генераторы отличаются ёмкостью и скоростью выдачи энергии.",
 		"(Стороны входа и выхода настраиваются молотком)"
 	],
 	dependencies: [
-		"fad16ba7"
+		"f1ba8622"
 	],
-	dependency_requirement: "one_started",
+	dependency_requirement: "one_completed",
 	or_tasks: true,
 	tasks: [{
 		uid: "6d3a7feb",
@@ -32,5 +32,11 @@
 		items: [{
 			item: "immersiveengineering:metal_device0 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "59b62206",
+		type: "item",
+		item: "immersiveengineering:wirecoil 1 3",
+		count: 10
 	}]
 }

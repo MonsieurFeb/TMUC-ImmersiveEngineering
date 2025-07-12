@@ -1,7 +1,8 @@
 {
 	title: "Коксование",
-	x: 23.5d,
+	x: 22.0d,
 	y: 10.5d,
+	shape: "gear",
 	text: [
 		"Возможно Ваш первый, но от этого не бесполезный мультиблок, производящий древесный, коксовый уголь и креозот. Можно автоматизировать.",
 		"Также в руководстве или через JEI можно посмотреть, как строить этот и другие многоблоки."
@@ -14,6 +15,13 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:stone_decoration"
-		}]
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "41541888",
+		type: "item",
+		item: "immersiveengineering:stone_decoration",
+		count: 3
 	}]
 }

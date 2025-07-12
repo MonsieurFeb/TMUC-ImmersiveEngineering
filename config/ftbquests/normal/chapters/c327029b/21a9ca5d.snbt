@@ -1,9 +1,13 @@
 {
 	title: "Бур",
-	x: 26.0d,
-	y: 8.5d,
+	x: 42.0d,
+	y: 14.5d,
+	shape: "square",
 	text: [
 		"Кирка со сменными головками, работающая на биодизеле"
+	],
+	dependencies: [
+		"94fc478d"
 	],
 	tasks: [{
 		uid: "789e1c40",
@@ -18,5 +22,16 @@
 			id: "immersiveengineering:drill"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c19da2ed",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 5
+	},
+	{
+		uid: "ec38bea0",
+		type: "xp_levels",
+		xp_levels: 1
 	}]
 }

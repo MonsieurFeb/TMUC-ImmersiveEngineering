@@ -1,7 +1,7 @@
 {
 	title: "Уровни напряжения",
-	x: 33.5d,
-	y: 8.5d,
+	x: 38.0d,
+	y: 6.5d,
 	text: [
 		"В моде есть 3 уровня напряжения, от низкого до высокого.",
 		"Для разных уровней используются различные провода и коннекторы.",
@@ -11,11 +11,25 @@
 	dependencies: [
 		"1365fc0e"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "8dc08ed7",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:connector 1 7"
 		}]
+	},
+	{
+		uid: "154c294f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "729818f6",
+		type: "item",
+		item: "immersiveengineering:connector 1 6",
+		count: 10
 	}]
 }

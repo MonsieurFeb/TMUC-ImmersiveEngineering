@@ -1,12 +1,13 @@
 {
 	title: "Садоводство",
-	x: 33.5d,
-	y: 12.5d,
+	x: 36.0d,
+	y: 4.5d,
 	text: [
 		"Автоматизированное выращивание культур и древесины.",
 		"Требует энергию и воду, забрать предметы можно извлекающим конвейером"
 	],
 	dependencies: [
+		"f1ba8622",
 		"aed8592b"
 	],
 	tasks: [{
@@ -15,5 +16,15 @@
 		items: [{
 			item: "immersiveengineering:metal_device1 1 13"
 		}]
+	}],
+	rewards: [{
+		uid: "bb587e82",
+		type: "item",
+		item: "immersiveengineering:connector 1 11"
+	},
+	{
+		uid: "eb5d854d",
+		type: "xp_levels",
+		xp_levels: 1
 	}]
 }

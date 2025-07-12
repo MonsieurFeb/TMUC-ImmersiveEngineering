@@ -1,20 +1,107 @@
 {
 	title: "Дуговая печь",
-	x: 28.5d,
-	y: 12.5d,
+	icon: "immersiveengineering:metal_multiblock 1 13",
+	x: 32.0d,
+	y: 14.5d,
+	shape: "gear",
 	text: [
 		"Можно считать новым этапом производства стали и не только.",
 		"Выплавляет сплавы, обрабатывает руду, перерабатывает предметы обратно в слитки"
 	],
 	dependencies: [
-		"19eafa57",
-		"fad16ba7"
+		"f1ba8622",
+		"19eafa57"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "47e85284",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	},
+	{
+		uid: "a2b5b294",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c1484366",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "299fa9c4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 8"
+		}],
+		count: 10L
+	},
+	{
+		uid: "ee6d29f1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal_slab 1 8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "3b7bc50b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "55dc59d6",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
 		}]
+	},
+	{
+		uid: "09d7c85c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "5a9e8365",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:storage 1 8"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "18063e95",
+		type: "item",
+		item: "immersiveengineering:metal_decoration0 1 5"
+	},
+	{
+		uid: "ed679ff5",
+		type: "item",
+		item: "immersiveengineering:sheetmetal_slab 1 8",
+		count: 2
+	},
+	{
+		uid: "3116e6aa",
+		type: "item",
+		item: "immersiveengineering:storage 1 8"
+	},
+	{
+		uid: "43445b58",
+		type: "xp_levels",
+		xp_levels: 1
 	}]
 }

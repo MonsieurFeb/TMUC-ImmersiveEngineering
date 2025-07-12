@@ -1,6 +1,6 @@
 {
 	title: "Креозот",
-	x: 26.0d,
+	x: 24.0d,
 	y: 10.5d,
 	text: [
 		"Из креозота можно сделать огнеупорные доски.",
@@ -10,10 +10,15 @@
 		"8406d74d"
 	],
 	tasks: [{
-		uid: "1b3eadb7",
+		uid: "07784a01",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:wooden_device0 1 1"
+			item: "immersiveengineering:treated_wood"
 		}]
+	}],
+	rewards: [{
+		uid: "68326fbe",
+		type: "item",
+		item: "immersiveengineering:wooden_device0 1 1"
 	}]
 }

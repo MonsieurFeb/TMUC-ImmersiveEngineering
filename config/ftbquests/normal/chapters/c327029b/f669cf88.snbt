@@ -1,25 +1,66 @@
 {
 	title: "Маслобойня",
-	icon: {
-		id: "forge:bucketfilled",
-		tag: {
-			FluidName: "plantoil",
-			Amount: 1000
-		}
-	},
-	x: 23.5d,
-	y: 16.5d,
+	icon: "immersiveengineering:metal_multiblock 1 7",
+	x: 38.0d,
+	y: 14.5d,
+	shape: "gear",
 	text: [
 		"Производит масло из семян - один из компонентов биодизеля"
 	],
 	dependencies: [
 		"fd98107f"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "2dacbda6",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:metal_decoration0 1 3"
 		}]
+	},
+	{
+		uid: "2485f925",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ae3c5a5b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "54b14ddf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "751eb5a3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 6L
+	},
+	{
+		uid: "2829f956",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}],
+	rewards: [{
+		uid: "e41232cd",
+		type: "item",
+		item: "immersiveengineering:metal_decoration1",
+		count: 3
 	}]
 }

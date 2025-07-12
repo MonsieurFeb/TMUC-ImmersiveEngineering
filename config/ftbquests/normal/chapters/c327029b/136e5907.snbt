@@ -1,6 +1,9 @@
 {
-	x: 21.0d,
+	title: "Руды",
+	disable_toast: true,
+	x: 18.0d,
 	y: 10.5d,
+	shape: "rsquare",
 	text: [
 		"Генерация руд мода представлена следующими ископаемыми. Можно посмотреть их частоту генерации с помощью JER"
 	],
@@ -46,5 +49,11 @@
 		items: [{
 			item: "immersiveengineering:ore 1 5"
 		}]
+	}],
+	rewards: [{
+		uid: "4d5edb49",
+		type: "item",
+		item: "minecraft:experience_bottle",
+		count: 5
 	}]
 }

@@ -1,18 +1,29 @@
 {
 	title: "Плавильная печь",
-	x: 21.0d,
+	icon: "immersiveengineering:stone_device 1 7",
+	x: 22.0d,
 	y: 14.5d,
+	shape: "gear",
 	text: [
-		"Печь, позволяющая делать сплавы"
+		"Печь, позволяющая делать сплавы, причём и из слитков тоже.",
+		"Однако можно смешивать и пыль металлов и затем обрабатывать в обычной печи"
 	],
 	dependencies: [
 		"382899a5"
 	],
+	optional: true,
 	tasks: [{
 		uid: "bc8aa450",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:stone_decoration 1 10"
-		}]
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "1ab21262",
+		type: "item",
+		item: "immersiveengineering:stone_decoration 1 10",
+		count: 2
 	}]
 }

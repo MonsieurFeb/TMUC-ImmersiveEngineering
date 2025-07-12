@@ -1,11 +1,13 @@
 {
 	title: "Улучшение доменной печи",
-	x: 26.0d,
-	y: 12.5d,
+	icon: "immersiveengineering:stone_device 1 2",
+	x: 28.0d,
+	y: 14.5d,
+	shape: "gear",
 	text: [
 		"Данная печь уже может представлять подспорье в автоматизации.",
-		"Она может принимать отдавать продукты с помощью труб и воронок.",
-		"А 2 воздухонагревателя, поставленные по бокам ускорят выработку стали"
+		"Она может принимать/отдавать продукты с помощью конвейеров и воронок.",
+		"А 2 воздухонагревателя, поставленные по бокам, ускорят выработку стали"
 	],
 	dependencies: [
 		"787d135b"
@@ -15,6 +17,19 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	},
+	{
+		uid: "98dddcaa",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
 		}]
+	}],
+	rewards: [{
+		uid: "90db8480",
+		type: "item",
+		item: "immersiveengineering:connector 1 10"
 	}]
 }

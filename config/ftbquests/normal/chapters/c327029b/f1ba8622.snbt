@@ -1,17 +1,68 @@
 {
 	title: "Провода",
-	x: 28.5d,
-	y: 8.5d,
+	x: 32.0d,
+	y: 10.5d,
+	shape: "diamond",
 	text: [
 		"Дня начала работы с электричеством вам пригодятся провода, которые позволят сделать данные кусачки.",
-		"Также для соединения проводов пригодятся коннекторы, а сами провода можно изолировать"
+		"Также для соединения проводов пригодятся коннекторы и реле, а сами провода можно изолировать"
 	],
+	dependencies: [
+		"f783a1d4",
+		"eb785c9b"
+	],
+	or_tasks: true,
 	tasks: [{
-		uid: "2b0552c6",
+		uid: "9e3ea639",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:tool 1 1"
-		}],
-		ignore_nbt: 1b
+			item: "immersiveengineering:wirecoil"
+		}]
+	},
+	{
+		uid: "b0ba857e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 1"
+		}]
+	},
+	{
+		uid: "0ee01932",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 2"
+		}]
+	},
+	{
+		uid: "bf4f8da2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}]
+	},
+	{
+		uid: "4191e4e5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}]
+	},
+	{
+		uid: "29b3ee7c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "0c94ed6f",
+		type: "item",
+		item: "immersiveengineering:material 1 5",
+		count: 5
+	},
+	{
+		uid: "bcc66a22",
+		type: "xp_levels",
+		xp_levels: 1
 	}]
 }

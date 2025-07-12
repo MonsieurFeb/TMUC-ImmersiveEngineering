@@ -1,10 +1,24 @@
 {
 	title: "Оружие инженера",
-	x: 33.5d,
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 21,
+				Items: []
+			}
+		},
+		id: "immersiveengineering:revolver"
+	},
+	x: 28.0d,
 	y: 16.5d,
+	shape: "square",
 	text: [
 		"Ваши компаньоны по истреблению местной фауны"
 	],
+	dependencies: [
+		"787d135b"
+	],
+	size: 2.0d,
 	tasks: [{
 		uid: "54c0abee",
 		type: "item",
@@ -48,5 +62,17 @@
 		items: [{
 			item: "immersiveengineering:metal_device1 1 11"
 		}]
+	}],
+	rewards: [{
+		uid: "7fa01d5c",
+		type: "item",
+		item: {
+			id: "immersiveengineering:bullet",
+			tag: {
+				bullet: "casull"
+			},
+			Damage: 2s
+		},
+		count: 32
 	}]
 }

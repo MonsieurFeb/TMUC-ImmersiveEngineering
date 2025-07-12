@@ -1,10 +1,14 @@
 {
 	title: "Логистика",
-	x: 33.5d,
+	x: 20.0d,
 	y: 14.5d,
+	shape: "gear",
 	text: [
 		"В моде присутствует система конвейеров, которая должна удовлетворить большинство потребностей по перемещению прежметов.",
 		"Есть регулируемые редстоуном, вертикальные, извлекающие и другие, ищите в руководстве или JEI"
+	],
+	dependencies: [
+		"d1df7478"
 	],
 	tasks: [{
 		uid: "40d7d636",
@@ -15,5 +19,15 @@
 				conveyorType: "immersiveengineering:conveyor"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "35e1fd34",
+		type: "item",
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:extract"
+			}
+		}
 	}]
 }

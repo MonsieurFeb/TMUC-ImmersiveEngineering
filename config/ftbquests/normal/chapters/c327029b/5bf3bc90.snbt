@@ -1,12 +1,12 @@
 {
 	title: "Редстоун",
-	x: 31.0d,
+	x: 32.0d,
 	y: 8.5d,
 	text: [
 		"В моде так же имеются компоненты для работы с редстоуном, например провода и коннекторы."
 	],
 	dependencies: [
-		"f1ba8622"
+		"eb785c9b"
 	],
 	tasks: [{
 		uid: "9d2b68ac",
@@ -14,5 +14,18 @@
 		items: [{
 			item: "immersiveengineering:wirecoil 1 5"
 		}]
+	},
+	{
+		uid: "a27989f8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "1ad68bb6",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
 	}]
 }
