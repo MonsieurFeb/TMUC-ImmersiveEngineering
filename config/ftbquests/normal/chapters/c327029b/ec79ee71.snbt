@@ -7,7 +7,10 @@
 				Items: []
 			}
 		},
-		id: "immersiveengineering:revolver"
+		id: "immersiveengineering:revolver",
+		tag: {
+			bullets: []
+		}
 	},
 	x: 28.0d,
 	y: 16.5d,

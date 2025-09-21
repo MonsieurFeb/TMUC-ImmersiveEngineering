@@ -43,7 +43,7 @@
 		items: [{
 			item: "immersiveengineering:sheetmetal 1 8"
 		}],
-		count: 10L
+		count: 8L
 	},
 	{
 		uid: "ee6d29f1",
