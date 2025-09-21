@@ -3,7 +3,7 @@
 
 Приготовьте побольше места, ибо одноблочным механизмам тут не место!
 
-[Здесь](https://docs.google.com/spreadsheets/d/1lOjJvVINyZOKglMesJLjZaYACXydL5BrmR1EGjro6ZM/edit?usp=sharing) можно ознакомиться со списком модов.
+[Здесь](https://docs.google.com/spreadsheets/d/1lOjJvVINyZOKglMesJLjZaYACXydL5BrmR1EGjro6ZM/edit?usp=sharing) можно найти список модов и changelog.
 
 # Installation
 - Установите Minecraft 1.12.2. Выберите одну из папок (пустых) и запомните её.

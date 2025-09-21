@@ -1,0 +1,23 @@
+{
+	title: "Кусачки",
+	x: 30.0d,
+	y: 8.5d,
+	shape: "square",
+	text: [
+		"Пригодятся, чтобы сделать провода"
+	],
+	tasks: [{
+		uid: "30eb5b0d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a7d26d9",
+		type: "item",
+		item: "immersiveengineering:metal_decoration2 1 4",
+		count: 3
+	}]
+}

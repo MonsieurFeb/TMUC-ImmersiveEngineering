@@ -1,0 +1,32 @@
+{
+	title: "Первая электроэнергия",
+	x: 30.0d,
+	y: 10.5d,
+	shape: "diamond",
+	text: [
+		"Пометка: прошу заметить, добраться сюда можно и без стали, однако далее она необходима. Прямых зависимостей нет во избежание слишком сложной схемы"
+	],
+	dependencies: [
+		"12caa193",
+		"fad16ba7",
+		"c3119c9e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ec05c75a",
+		type: "checkmark",
+		title: "Нажми меня",
+		icon: "immersiveengineering:metal_decoration0 1 6"
+	}],
+	rewards: [{
+		uid: "5585ecdc",
+		type: "item",
+		item: "immersiveengineering:wooden_device1 1 3",
+		count: 4
+	},
+	{
+		uid: "2f283e61",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Сила ветра",
+	x: 28.0d,
+	y: 8.5d,
+	text: [
+		"Генерирует энергию из ветра.",
+		"Именно поэтому лучше работает, если расположить повыше, не загораживать пространство блоками, плохая погода приветствуется"
+	],
+	dependencies: [
+		"56c6b877"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fcf3cee0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "89be84b6",
+		type: "item",
+		item: "immersiveengineering:connector 1 1",
+		count: 4
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Улучшения",
+	icon: {
+		id: "immersiveengineering:shader",
+		tag: {
+			shader_name: "Argo"
+		}
+	},
+	x: 30.0d,
+	y: 16.5d,
+	text: [
+		"У инструментов и оружия есть улучшения, позволяющие им работать эффективнее.",
+		"Снабдить инструмент улучшением можно в столе инженера"
+	],
+	dependencies: [
+		"ec79ee71"
+	],
+	tasks: [{
+		uid: "fac31419",
+		type: "checkmark",
+		title: "Нажми меня"
+	}],
+	rewards: [{
+		uid: "eb0dc34e",
+		type: "item",
+		item: "immersiveengineering:toolupgrade"
+	},
+	{
+		uid: "377af98f",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}
