@@ -1,4 +1,7 @@
-# TMUC-ImmersiveEngineering
+# TMUC-Immersive
+
+![tmucie.png](tmucie.png)
+
 ### Tech Modpack Ultimate Collection
 
 Приготовьте побольше места, ибо одноблочным механизмам тут не место!
