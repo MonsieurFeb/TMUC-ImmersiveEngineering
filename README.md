@@ -1,6 +1,6 @@
 # TMUC-Immersive
 
-![tmucie.png](tmucie.png)
+![tmucimmersive.png](tmucimmersive.png)
 
 ### Tech Modpack Ultimate Collection
 
@@ -27,3 +27,5 @@
 Просьба писать на почту MonsieurFeb@yandex.ru или [Telegram](https://t.me/thirdBTP/824)
 
 (Или на других платформах, но быть везде - невозможно!)
+
+![image-1.jpg](image-1.jpg)
