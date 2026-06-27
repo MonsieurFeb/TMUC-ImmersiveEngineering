@@ -6,7 +6,9 @@
 
 Приготовьте побольше места, ибо одноблочным механизмам тут не место!
 
-[Здесь](https://docs.google.com/spreadsheets/d/1lOjJvVINyZOKglMesJLjZaYACXydL5BrmR1EGjro6ZM/edit?usp=sharing) можно найти список модов и другую полезную информацию.
+[Здесь](https://docs.google.com/spreadsheets/d/1bv3wSOOAYknZF-W-Vb7Z4XiVB1TjS_w6DbVVe4Pj3Tc/edit?usp=sharing) можно найти список модов и другую полезную информацию.
+
+Такс, я подчистил репо, пока оно чисто информационное, скачать архивчики можно [здесь](https://disk.yandex.ru/d/gtrn9ptmUbXaWw) и [здесь](https://drive.google.com/drive/folders/1FMeq2MnRWCnloDQC6zSTRFKN0Dgb8YcW?usp=sharing)
 
 # Installation
 - Установите Minecraft 1.12.2. Выберите одну из папок (пустых) и запомните её.
