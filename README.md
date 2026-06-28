@@ -23,7 +23,7 @@
 ## Other Modpacks
 Вы можете найти эту и другие мои сборки [здесь](https://monsieurfeb.github.io/modpacks.html)
 
-А в этой [таблице](https://docs.google.com/spreadsheets/d/1lLu7JaAFoo23XOV87XWc5rpGY2zUfxdeOsy7jaUptiE/edit?usp=sharing) статус разработки модпаков коллекции.
+А в этой [таблице](https://docs.google.com/spreadsheets/d/1u5vIX8oGjELeDfsSiaR8NvIATlkEW-N-MmX3r2Xlx8Q/edit?usp=sharing) статус разработки модпаков коллекции.
 
 ## Contact me
 Просьба писать на почту MonsieurFeb@yandex.ru или [Telegram](https://t.me/thirdBTP/824)
